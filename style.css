@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 7px;
+    border-image: url(lighton.jpeg);
+    color: white;
+    background: #1d721d9d;
+    padding: 5px;
+}
+button:hover{
+    cursor: pointer;
+    color: #000;
+    text-shadow: linear-gradient(#151515,#00ec00);
+    background: aqua;
+}
+#like{
+    display: flex;
+    gap: 1rem;
+}
